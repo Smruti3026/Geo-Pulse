@@ -7,7 +7,7 @@ class MyButton extends StatelessWidget {
   const MyButton({
     super.key,
     required this.text,
-    required this.ontap,
+    required this.ontap, required TextStyle style,
   });
 
   @override
@@ -19,7 +19,7 @@ class MyButton extends StatelessWidget {
         padding: const EdgeInsets.all(20),
         margin: const EdgeInsets.symmetric(horizontal: 25),
         decoration: BoxDecoration(
-          color: Theme.of(context).colorScheme.secondary,
+          color: Theme.of(context).colorScheme.primary,
           borderRadius: BorderRadius.circular(10)
         ),
         child: Center(
@@ -28,7 +28,7 @@ class MyButton extends StatelessWidget {
             style: TextStyle(
               fontWeight: FontWeight.bold,
               fontSize: 18,
-              color: Theme.of(context).colorScheme.inversePrimary
+              color: Theme.of(context).colorScheme.inversePrimary,
             ),
           ),
         ),

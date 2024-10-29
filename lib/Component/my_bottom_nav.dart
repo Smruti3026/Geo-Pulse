@@ -56,7 +56,7 @@ class _MyBottomNavState extends State<MyBottomNav> with TickerProviderStateMixin
         tabSize: 50,
         tabBarHeight: 55,
         textStyle: const TextStyle(
-          fontSize: 12,
+          fontSize: 13,
           color: Colors.black,
           fontWeight: FontWeight.w500,
         ),

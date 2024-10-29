@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 ThemeData colorPalette = ThemeData(
   colorScheme: ColorScheme.light(
     background: Colors.grey.shade300,
-    primary: Colors.grey.shade500,
-    secondary: Colors.grey.shade100,
-    tertiary: Colors.white,
-    inversePrimary: Colors.grey.shade700,
+    primary: const Color.fromARGB(255, 0, 45, 82),
+    secondary: const Color.fromARGB(255, 248, 157, 248),
+    tertiary: const Color.fromARGB(255, 97, 4, 99),
+    inversePrimary: Colors.white,
   ),
 );
 

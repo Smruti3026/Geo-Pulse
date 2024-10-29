@@ -13,19 +13,25 @@ class MyCard extends StatelessWidget {
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(8.0),
       ),
+      color: const Color.fromARGB(255, 98, 78, 247), // Sets the background color of the card
+    
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Icon(
             icon,
             size: 50,
-            color: Colors.deepPurpleAccent, 
+            color: Colors.white, 
           ),
           const SizedBox(height: 10),
           Center(
             child: Text(
               title,
-              style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+              style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold,
+              color: Color.fromARGB(255, 254, 254, 255)
+              ),
+
+              
             ),
           ),
         ],

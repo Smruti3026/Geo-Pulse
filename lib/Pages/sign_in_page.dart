@@ -58,7 +58,10 @@ class _MySignInState extends State<MySignIn> {
             ),
             // button
             MyButton(
-              text: 'Sign In', 
+              text: 'Sign In',
+              style: TextStyle(
+                color: Theme.of(context).colorScheme.primary,
+              ) ,
               ontap: () {
                 Navigator.push(
                   context, MaterialPageRoute(
@@ -79,7 +82,7 @@ class _MySignInState extends State<MySignIn> {
                   'Forget Password?',
                   style: TextStyle(
                     fontSize: 15,
-                    color: Theme.of(context).colorScheme.inversePrimary,
+                    color: Theme.of(context).colorScheme.primary,
                   ),
                 )
               ),
